@@ -3,9 +3,8 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Load the images
-ref_image = cv2.imread('/Users/taz/Documents/GitHub/image_stitching/Examples_Images/office1.jpg', 0)  # Reference image
-center_image = cv2.imread('/Users/taz/Documents/GitHub/image_stitching/Examples_Images/office2.jpg', 0)  # Center image
-right_image = cv2.imread('/Users/taz/Documents/GitHub/image_stitching/Examples_Images/office3.jpg', 0)  # Right image
+ref_image = cv2.imread('office1.jpg', 0)  # Reference image
+center_image = cv2.imread('office2.jpg', 0)  # Center image
 
 def H_out(img1, img2):
     # Initialize SIFT detector
